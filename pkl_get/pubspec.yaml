@@ -1,0 +1,33 @@
+name: pkl_get
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies: 
+  flutter_secure_storage: ^9.2.2
+  iconly: 1.0.1
+  carousel_slider: ^4.2.1
+  intl: ^0.18.1
+  google_fonts: ^6.2.1
+  path_provider: ^2.1.1
+  flutter_svg: ^1.1.0
+  cupertino_icons: ^1.0.6
+  google_nav_bar: ^5.0.6
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^3.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/icon/
+  uses-material-design: true
+
